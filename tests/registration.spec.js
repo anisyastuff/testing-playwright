@@ -1,3 +1,4 @@
+// @ts-check
 import { test, expect } from "@playwright/test";
 
 // test("Has a title", async ({ page }) => {
