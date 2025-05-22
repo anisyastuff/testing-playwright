@@ -50,7 +50,7 @@ test("Register with existing email", async ({ page }) => {
   await page.check('input[name="agree"]');
   await page.click('input[value="Continue"]');
   expect(page.getByText("Warning: E-Mail Address is already registered!")).toBeVisible();
-  or
+//  or
 //   const alertError = "Warning: E-Mail Address is already registered!";
 //   await expect(page.getByText(alertError)).toBeVisible();
 });
